@@ -1342,4 +1342,6 @@ application = app
 patch_application(app)
 
 if __name__ == "__main__":
-    run()
+    import bjoern
+
+    bjoern.run(app, 'unix:/broker/searx/socket')

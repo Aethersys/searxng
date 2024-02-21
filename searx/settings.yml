@@ -364,6 +364,11 @@ engines:
     shortcut: arx
     timeout: 4.0
 
+  - name: ask
+    engine: ask
+    shortcut: ask
+    disabled: true
+
   # tmp suspended:  dh key too small
   # - name: base
   #   engine: base
@@ -2036,6 +2041,13 @@ engines:
     paging: true
     categories: videos
     disabled: true
+
+  - name: livespace
+    engine: livespace
+    shortcut: ls
+    categories: videos
+    disabled: true
+    timeout: 5.0
 
   - name: wordnik
     engine: wordnik
